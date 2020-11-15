@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6; 
+    color: dimgrey;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #002d72;
+    color: white;
+  }
+  
+  .centered-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    .box {
+  background-color: lightgrey;
+  width: 100%;
+  padding: 1px;	  
+  }
+	
+  .textbox {
+  width: 1200px;
+  padding-left: 0px;
+  text-align: left;	  
+}
+  
+</style>
+</head>
+
+<body>
+
+<div class="topnav">
+  <a class="active" href="/">New York Public Middle Schools</a>
+  <a href="/overview">Overview</a>
+  <a href="/explore">Explore</a>
+  <a href="/findschool">Find School</a>
+</div>
+
+<center> 
+<div class="textbox">
+  <h2 style="color:#002d72;"> Welcome </h2>
+   This webpage is made as part of the final project in the course <i>02806 Social data analysis and visualization</i> at the Technical University of Denmark (DTU) in the spring 2020.	
+   All data about the middle schools is obtained from <a href="https://data.cityofnewyork.us/browse?category=Education" target="_blank">NYC Open Data</a>. The Python notebook, data and
+	other files used to create this webpage can be found on this <a href="https://github.com/nyc-public-schools/nyc-public-schools.github.io" target="_blank">github</a>.
+   Click on the playbutton in the bottom-left corner and enjoy an introduction to this page.
+</div>
+</center>
+	<p></p>	
+
+<div class="centered-container">
+    <video width="1200" controls>
+  	  <source src="data/finalfilm.mp4" type="video/mp4">
+  	  <source src="data/finalfilm.ogg" type="video/ogg">
+  	  Your browser does not support HTML video.
+    </video>
+</div>
+	
+	<p> <br> </p>
+  
+</body>
+</html>
