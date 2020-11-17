@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: dimgrey; 
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #002d72;
+  color: white;
+}
+
+  .centered-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+    .box {
+      width: 1200px;	  
+    }
+  
+   .titlebox {
+  background-color: lightgrey;
+  width: 1200px;
+  padding: 1px;	  
+  }
+	
+  .textbox {
+  width: 1200px;
+  padding-left: 0px;
+  text-align: left;	  
+}
+	
+</style>
+</head>
+  
+<body>
+
+<div class="topnav">
+  <a class="active" href="/">New York Public Middle Schools</a>
+  <a href="/overview">Overview</a>
+  <a href="/explore">Explore</a>
+  <a href="/findschool">Find School</a>
+</div>
+  
+  
+  <center>
+<div class = "textbox" > 
+ <h2 style="color:#002d72;"> Explore NYC Public Middle Schools </h2>
+    Here you can explore the different school districts and boroughs.
+      In the left side of the maps you can choose which variable you want to explore. The color of an area indicates the average 
+      of the chosen variable for that specific area compared to the other areas. The colorscheme from low to high is shown in the top right corner.
+	Furthermore, you can hover over an area to see the exact numbers for that area. 
+      You can also zoom in and explore which schools are located in each area by clicking on the map. 
+      You can change the color mode of the background maps if you have a preference - this is done in the bottom of the left hand side. </br>
+      But first, we ask you to please be patient while the maps load. We recommend a cup of coffee  <img src="data/coffee.png" alt="coffee" width="50" height="33">
+</div>	
+</center>
+
+	<p></p>
+
+<center>
+<div class = "titlebox" > 
+  <center>
+	<h2 style="color:#002d72;"> School Districts </h2>
+  </center> 
+</div>
+</center>
+
+<p></p>
+
+<center>
+<div class="box">
+  <img src="data/bar.png" alt="bar" width="400" height="40" style="float:right">
+</div>
+</center>	
+
+<p></p>
+
+<center>
+  <iframe src="data/MAP_DISTRICT.html" height="650" width="1200"></iframe>
+</center>
+
+  <p></p>
+<p></p>	
+
+<center>
+<div class = "titlebox" > 
+  <center>
+	<h2 style="color:#002d72;"> Boroughs </h2>
+  </center> 
+</div>
+</center>
+
+<p></p>
+
+<center>
+<div class="box">
+  <img src="data/bar.png" alt="bar" width="400" height="40" style="float:right">
+</div>
+</center>	
+
+<center>
+  <iframe src="data/MAP_BOROUGH.html" height="650" width="1200" ></iframe>
+</center>
+<p></p>
+<p></p>
+  
+</body>
+</html>
